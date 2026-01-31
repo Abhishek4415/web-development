@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(3,200px);
+
+    height: 500px;
+    width: 600px;
+    margin: 0 auto;
+}
+main div{
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    
+    
+}

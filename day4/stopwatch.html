@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            display: flex;
+            height: 100px;
+            width: 400px;
+            background-color: blanchedalmond;
+            justify-content: center;
+            gap: 12px;
+            margin: 0 auto;
+            align-items: center;
+            position: relative;
+            top: 200px;
+        }
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: larger;
+            font-weight: bold;
+            width: 100px;
+            height: 70px;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+
+        <div id="hour">00</div>
+        <div id="minute">00</div>
+        <div id="second">00</div>
+        
+        <button onclick="handleStart()">
+            start
+        </button>
+        <button onclick="handleStop()">
+            stop
+        </button>
+        <button onclick="handleReset()">
+            reset
+        </button>
+        <button onclick="handleResume()">
+            resume
+        </button>
+    </main>
+
+
+    <script src="stopwatch.js"></script>
+</body>
+</html>

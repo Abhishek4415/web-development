@@ -260,7 +260,34 @@ console.log(student); //change marks b/c marks address is same
 
 
 
+//obj.keys(obj)
+//obj.values(obj)
+//obj.entries(obj)
+//==================================Array
+//==============================ARRAY===========
+const arr = ["raj","ramesh","rahul","abhishek"];
+console.log("arr",arr);
+//insertion
+//you can potentially create holes is you insert in array via index
+// arr[6] = "zz"
+arr[4] = "sumit"
+//update index 1
+arr[1] = "zzzz"
+console.log(arr);
+console.log(arr.length)
 
+//push 
+arr.push("hello");
+console.log(arr)
+//delete
+//shift , pop , slice
+//shift - first index
+arr.shift();
+//pop - last index
+arr.pop()
+//slice
+arr.slice(2,1)
+console.log(arr)
 
 
 
